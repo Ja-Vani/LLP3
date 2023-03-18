@@ -1,0 +1,5 @@
+addVertex("person", "name", "Ivan");
+addEdge("know", 1, 2);
+deleteEdge(1, 2);
+addEdge("know", 0, 1);
+V().has("name", eq("Ivan")).has("name", eq("Ivan"));
